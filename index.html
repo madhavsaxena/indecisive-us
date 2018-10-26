@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Indecisive: Let's Make a Decision</title>
+  <meta name="description" content="Making Decisions Easier">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Indecisive.US</h1>
+  </header>
+
+  <section id="intro">
+    <h2>Let's Make a Decision</h2>
+    <p>Making a decision can be tough. Whether you're figuring out where to eat, what to do, or any other considerations, it can be extremely time-consuming to actually choose something. This app's here to help - 
+Narrow down your list of choices to 3. Add them to the input boxes, then hit "Let's Decide". No more indecision!</p>
+    <button onclick="showDecisionE()">Let's Get Started</button>
+  </section>
+
+  <section id="decision-entry">
+    <div class="de-one">
+      <label>Option One</label>
+      <input type="text" placeholder="Option #1" id="optionone">      
+    </div>
+
+    <div class="de-two">
+      <label>Option Two</label>
+      <input type="text" placeholder="Option #2" id="optiontwo">        
+    </div>  
+
+    <div class="de-three">
+      <label>Option Three</label>
+      <input type="text" placeholder="Option #3" id="optionthree">      
+    </div>
+
+    <div class="cta">
+       <button onclick="showDecision()">Let's Decide</button>
+    </div>
+  </section>
+
+  <section id="the-decision">
+      <h2 id="printThree"></h2>  
+      <button onclick="showDecisionE()">Let's Decide Something Else</button>
+
+  </section>
+
+<script src="assets/main.js"></script>
+<script> showIntro(); </script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
+</body>
+
+</html>

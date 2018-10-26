@@ -7,29 +7,28 @@ secondary; #FF9800
 grey: #212121
 */
 
-* {
-	--dark: #0d2126 ;
-	--light:  #FAFAFA ;
-	--text:  #060502;
-}
+* { box-sizing:border-box;
+	--dark: #2c3e50 ;
+	--light:  #16a085;
+	--text:  #ecf0f1;}
 
-* {box-sizing:border-box;}
-body {font-size:13px;background:var(--light);height:100vh;display: flex;flex-direction: column;justify-content: center}
+html {font-size:18px;}
+body {background:var(--light);height:100vh;display: flex;flex-direction: column;justify-content: center;font-family: 'Muli', sans-serif;}
 
 header {margin:0;}
-h1 {text-transform: uppercase;font-size:1.5rem;text-align: center;margin:auto auto 2rem}
+h1 {text-transform: uppercase;font-size:2rem;text-align: center;margin:auto auto 1.3rem;color:var(--dark);}
 
 #intro {padding:0 1.5rem;}
-#intro h2 {color: var(--text);font-size:1.3rem;text-align: center;text-transform: uppercase;margin:auto auto 2rem;}
-#intro p {color:var(--text);font-size:1rem;text-align: justify;line-height:1.5rem;margin:auto auto 2rem;}
+#intro h2 {color: var(--light);font-size:1.3rem;text-align: center;text-transform: uppercase;margin:auto auto 2rem;}
+#intro p {color:var(--text);font-size:1rem;text-align: justify;line-height:1.5rem;margin:auto auto 1.3rem;}
 
-button {width:300px;display: block;margin:auto;background:var(--text);border-radius: 0;padding:1.5rem;color:var(--light);text-transform:uppercase;font-weight:bold;font-size:1.2rem;}
+button {width:300px;display: block;margin:auto;background:var(--dark);border-radius: 0;padding:1.5rem;color:var(--light);text-transform:uppercase;font-weight:bold;font-size:1.2rem;border:0;}
 
-.de-one {margin-bottom:2rem;}
-.de-two {margin-bottom:2rem;}
-.de-three {margin-bottom:2rem;}
+.de-one {margin-bottom:1.3rem;}
+.de-two {margin-bottom:1.3rem;}
+.de-three {margin-bottom:1.3rem;}
 
 input {display: block;margin:auto;margin-bottom:1.5rem;font-size:1rem;}
-label {display: block;margin:auto auto 0.75rem;text-align: center;font-size:1.1rem;}
+label {display: block;margin:auto auto 0.75rem;text-align: center;font-size:0.8rem;}
 
-#the-decision h2 {color: var(--text);font-size:1.3rem;text-align: center;text-transform: uppercase;margin:auto auto 2rem;}
+#the-decision h2 {color: var(--text);font-size:1.8rem;text-align: center;text-transform: uppercase;margin:auto auto 1.3rem;}

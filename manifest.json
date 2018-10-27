@@ -1,6 +1,6 @@
 {
   "name": "Indecisive: Decision-Making App",
-  "short_name": "Indecisive.US",
+  "short_name": "Indecisive",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#16a085",

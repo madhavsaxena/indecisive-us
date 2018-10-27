@@ -8,6 +8,9 @@ function showDecisionE(){
 	document.querySelector("#intro").style.display = "none";
 	document.querySelector("#decision-entry").style.display = "";
 	document.querySelector("#the-decision").style.display = "none";
+	document.getElementById("optionone").value = ""; 
+	document.getElementById("optiontwo").value = "";
+	document.getElementById("optionthree").value = "";
 }
 
 function showDecision(){

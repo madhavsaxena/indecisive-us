@@ -14,39 +14,41 @@
 
 <body>
   <header>
-    <h1>Indecisive.US</h1>
+    <h1 class="bounce">Indecisive.US</h1>
   </header>
 
   <section id="intro">
-    <h2>Let's Make a Decision</h2>
+    <h2 class="bounce">Let's Make a Decision</h2>
     <p>Making a decision can be tough. Whether you're figuring out where to eat, what to do, or anything else, it can be extremely time-consuming to actually choose something.<br>This app's here to help -<br> 
 Narrow down your list of choices to 3. Add them to the input boxes, then hit "Let's Decide". No more indecision!</p>
     <button onclick="showDecisionE()">Let's Get Started</button>
   </section>
 
   <section id="decision-entry">
-    <div class="de-one">
-      <label>Option One</label>
-      <input type="text" id="optionone">      
-    </div>
 
-    <div class="de-two">
-      <label>Option Two</label>
-      <input type="text" id="optiontwo">        
-    </div>  
+      <div class="de-one">
+        <label>Option One</label>
+        <input type="text" id="optionone">      
+      </div>
 
-    <div class="de-three">
-      <label>Option Three</label>
-      <input type="text" id="optionthree">      
-    </div>
+      <div class="de-two">
+        <label>Option Two</label>
+        <input type="text" id="optiontwo">        
+      </div>  
 
-    <div class="cta">
-       <button onclick="showDecision()">Let's Decide</button>
-    </div>
+      <div class="de-three">
+        <label>Option Three</label>
+        <input type="text" id="optionthree">      
+      </div>
+
+      <div class="cta">
+         <button onclick="showDecision()" class="stretchRight">Let's Decide</button>
+      </div>
+
   </section>
 
   <section id="the-decision">
-      <h2 id="printThree"></h2>  
+      <h2 id="printThree" class="hatch"></h2>  
       <button onclick="showDecisionE()">Let's Decide Something Else</button>
 
   </section>

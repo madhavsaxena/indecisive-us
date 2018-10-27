@@ -1,0 +1,15 @@
+{
+  "name": "Indecisive: Decision-Making App",
+  "short_name": "Indecisive.US",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#16a085",
+  "background_color": "#2c3e50",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "447x447",
+      "type": "image/png"
+    }
+  ]
+}

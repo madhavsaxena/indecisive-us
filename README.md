@@ -14,4 +14,4 @@ This app's here to help - Narrow down your list of choices to 3. Add them to the
 
 * empty pwa service worker
 
-https://indecisive.us
+[demo site](https://indecisive.us)
